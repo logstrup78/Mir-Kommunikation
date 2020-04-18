@@ -1,9 +1,31 @@
+h1{
+    font-family: 'Lora', serif;
+    color: rgb(31, 30, 30);
+    font-size: 55px;
+}
+.name{
+    margin-top: 140px;
+    text-align: center;
+    padding-right: 10%;
+}
 #home{
  background-color: #F6F9FF;
  height: 900px;
 }
 .profile-img{
     border-radius: 100%;
+    height: 65%;
     margin-top: 20%;
+    position: relative;
+    padding-left: 20%;
+}
+.nav-link{
+    font-family: 'Montserat';
+    color: rgb(31, 30, 30);
+    font-size: larger;
+    font-weight: 700;
+}
+.navbar{
+    padding-top: 5%;
 }
 
