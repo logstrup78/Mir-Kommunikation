@@ -1,32 +1,31 @@
 h1{
     font-family: 'Lato', sans-serif;
-    color: #272343;
+    color: #636269;
     font-size: 40px;
 }
 .btn{
-    border-radius: 10%;
-    background-color: #bae8e8;
+    border-radius: 5%;
+    background-color: #97ADB2;
 }
 
 
 #home{
  background-color: #ffffff;
- height: 900px;
+ height: 750px;;
 }
 
 .nav-link{
     font-family: 'Montserrat', sans-serif;
     color: #272343;
-    font-size: larger;
     font-weight: 700;
 }
 .navbar{
-    background-color: #bae8e8;
+    background-color: #97ADB2;
 
 }
 .name{
     text-align: center;
-    padding-top: 27%;
+    padding-top: 18%;
     line-height: 5em;
 
     
@@ -38,15 +37,7 @@ h1{
     font-size: larger;
     font-weight: bolder;
 }
-.home-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    opacity: 0.6;
-}
-.img-home{
-    padding-top: 10%;
-}
+
 
 /*forskningsformidling*/
 
@@ -57,6 +48,5 @@ h1{
 /*Det levede lic*/
 
 #fortællinger{
-    height: 800px;
     background-color: #fff;
 }
