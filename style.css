@@ -7,6 +7,10 @@ h1{
     border-radius: 5%;
     background-color: #97ADB2;
 }
+h2{
+    font-family: 'Libre Caslon Display',
+    serif;
+}
 
 
 #home{
@@ -31,22 +35,48 @@ h1{
     
 }
 .name h1{
-    font-size: 55px;
+    font-size: 70px;
+    font-family: 'Libre Caslon Display',
+    serif;
 }
 .name p{
     font-size: larger;
     font-weight: bolder;
 }
 
+/*Home*/
+
+#home {
+    background: url("images/25101.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    height: 100vh;
+}
 
 /*forskningsformidling*/
 
 #forskningsformidling{
-    background-color: rgb(247, 255, 254);
+    
+    background-color: rgb(248, 252, 252);
+    height: 100vh;
+
 }
 
 /*Det levede lic*/
 
 #fortællinger{
+    height: 100vh;
     background-color: #fff;
+}
+#temaer{
+    height: 100vh;
+
+}
+#om {
+    height: 100vh;
+
 }
