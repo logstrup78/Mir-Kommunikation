@@ -1,49 +1,73 @@
-h1{
+h1 {
     font-family: 'Lato', sans-serif;
-    color: #636269;
+    color: #324B50;
     font-size: 6em;
 }
-.btn{
+
+.btn {
     border-radius: 5%;
     background-color: #97ADB2;
 }
-h2{
+
+h2 {
     font-family: 'Libre Caslon Display',
-    serif;
-    font-size: 3.5em;
+        serif;
+    font-size: 3.7em;
     color: #636269;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10%;
 }
 
-
-#home{
- background-color: #ffffff;
- height: 750px;;
+h3 {
+    font-family: 'Libre Caslon Display',
+        serif;
+    font-size: 2em;
+    color: #822900;
+    text-align: center;
 }
 
-.nav-link{
+p {
+    font-size: 1.5em;
+    font-family: 'Libre Caslon Display',
+        serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #324B50;
+}
+
+#home {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+
+.navbar{
+    background-color: #97ADB2;
+}
+
+.nav-link {
     font-family: 'Montserrat', sans-serif;
     color: #272343;
     font-weight: 700;
 }
-.navbar{
-    background-color: #97ADB2;
 
-}
-.name{
+.name {
     text-align: center;
     padding-top: 18%;
     line-height: 5em;
 
-    
+
 }
-.name h1{
+
+.name h1 {
     font-family: 'Libre Caslon Display',
-    serif;
+        serif;
 }
-.name p{
+
+.name p {
     font-size: larger;
     font-weight: bolder;
 }
@@ -56,32 +80,46 @@ h2{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    
+
+
     height: 100vh;
 }
 
 /*forskningsformidling*/
 
-#forskningsformidling{
-    
+#forskningsformidling {
+
     background-color: #FCFCFC;
     height: 100vh;
     display: flex;
 
-
 }
+
+.forsk {
+    margin: 30% 5%;
+}
+
+.forsk1 {
+    margin: 30% 5%;
+}
+
+.forsk h3 {
+    padding-top: 30px;
+}
+
 
 /*Det levede lic*/
 
-#fortællinger{
+#fortællinger {
     height: 100vh;
     background-color: #fff;
 }
-#temaer{
+
+#temaer {
     height: 100vh;
 
 }
+
 #om {
     height: 100vh;
 
