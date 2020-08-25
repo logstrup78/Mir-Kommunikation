@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Lato', sans-serif;
     color: #324B50;
-    font-size: 6em;
+    font-size: 6vw;
 }
 
 .btn {
@@ -108,7 +108,7 @@ a {
 }
 
 
-/*Det levede lic*/
+/*Det levede liv*/
 
 #fortællinger {
     height: 100vh;
@@ -123,4 +123,16 @@ a {
 #om {
     height: 100vh;
 
+}
+
+/*kontakt*/
+
+#kontakt{
+    height: 100vh;
+}
+p .forsk{
+    text-align: center;
+}
+.contact_button{
+    margin-top: 50px;
 }
