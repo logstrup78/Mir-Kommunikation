@@ -19,6 +19,13 @@ h2 {
     margin-bottom: 10%;
 }
 
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 2em;
+    }
+}
+
+
 h3 {
     font-family: 'Libre Caslon Display',
         serif;
@@ -40,11 +47,10 @@ a {
 
 #home {
     background-color: #ffffff;
-    height: 100vh;
+    
 }
 
-
-.navbar{
+.navbar {
     background-color: #97ADB2;
 }
 
@@ -58,8 +64,6 @@ a {
     text-align: center;
     padding-top: 18%;
     line-height: 5em;
-
-
 }
 
 .name h1 {
@@ -80,27 +84,39 @@ a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 20%;
 
 
-    height: 100vh;
 }
+
+.kolon {
+    margin-top: 10px;
+}
+
+
 
 /*forskningsformidling*/
 
 #forskningsformidling {
 
     background-color: #FCFCFC;
-    height: 100vh;
-    display: flex;
 
 }
 
 .forsk {
-    margin: 30% 5%;
+    margin: 15% 5%;
 }
 
 .forsk1 {
-    margin: 30% 5%;
+    margin: 15% 5%;
+    padding: 3%;
+
+}
+
+.forsk2 {
+    margin: 15% 5%;
+    padding: 3%;
+
 }
 
 .forsk h3 {
@@ -108,31 +124,73 @@ a {
 }
 
 
+
 /*Det levede liv*/
 
 #fortællinger {
-    height: 100vh;
-    background-color: #fff;
-}
-
-#temaer {
-    height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
 
 }
 
 #om {
     height: 100vh;
-
+    background-color: #f8f8f8;
 }
 
 /*kontakt*/
 
-#kontakt{
-    height: 100vh;
-}
-p .forsk{
+#kontakt {}
+
+p .forsk {
     text-align: center;
 }
-.contact_button{
+
+.contact_button {
     margin-top: 50px;
+}
+
+.læs_mere {
+    margin-top: 50px;
+}
+
+.kontakt {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@keyframes jump {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+#hånd {
+    position: relative;
+    margin: 50px 100px 0 auto;
+    animation: jump 2s infinite;
+
+    i {
+        content: '\f0a8';
+        font-size: 80px;
+        transition: .3s ease-in-out;
+    }
+
+    i:hover {
+        opacity: 0.7;
+        transition: .3s ease-in-out;
+    }
+}
+
+.fa-hand-point-down {
+    font-size: 8em;
+    opacity: 0.7;
 }
