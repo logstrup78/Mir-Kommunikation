@@ -38,7 +38,7 @@ p {
     font-size: 1.5em;
     font-family: 'Libre Caslon Display',
         serif;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 
 a {
@@ -59,7 +59,9 @@ a {
     color: #272343;
     font-weight: 700;
 }
-
+.navbar-toggler-icon{
+    background-color: rgb(175, 199, 190);
+}
 .name {
     text-align: center;
     padding-top: 18%;
@@ -76,7 +78,7 @@ a {
     font-weight: bolder;
 }
 
-/*Home*/
+/*Forside*/
 
 #home {
     background: url("images/25101.jpg")no-repeat center center fixed;
@@ -95,11 +97,11 @@ a {
 
 
 
-/*forskningsformidling*/
+/* Det tilbyder jeg */
 
-#forskningsformidling {
+#det_tilbyder_jeg {
 
-    background-color: #FCFCFC;
+    background-color: #f8f8f8;
 
 }
 
@@ -114,7 +116,7 @@ a {
 }
 
 .forsk2 {
-    margin: 15% 5%;
+    margin: 10% 5%;
     padding: 3%;
 
 }
@@ -122,21 +124,27 @@ a {
 .forsk h3 {
     padding-top: 30px;
 }
+.btn-block{
+    padding: 20px;
+}
 
 
+/*Journalistiske artikler*/
 
-/*Det levede liv*/
-
-#fortællinger {
-    background-color: #f8f8f8;
+#journalistiske_artikler {
+    background-color: #fff;
     display: flex;
 
 }
 
-#om {
-    height: 100vh;
+
+/* Vil I have en god ide*/
+
+#god_ide{
+
     background-color: #f8f8f8;
 }
+
 
 /*kontakt*/
 
@@ -148,6 +156,8 @@ p .forsk {
 
 .contact_button {
     margin-top: 50px;
+    border: none;
+    box-shadow: 1px 1px 1px rgb(133, 132, 132);
 }
 
 .læs_mere {
@@ -157,40 +167,4 @@ p .forsk {
 .kontakt {
     margin-top: auto;
     margin-bottom: auto;
-}
-
-@keyframes jump {
-    0% {
-        top: 0;
-    }
-
-    50% {
-        top: 50px;
-    }
-
-    100% {
-        top: 0;
-    }
-}
-
-#hånd {
-    position: relative;
-    margin: 50px 100px 0 auto;
-    animation: jump 2s infinite;
-
-    i {
-        content: '\f0a8';
-        font-size: 80px;
-        transition: .3s ease-in-out;
-    }
-
-    i:hover {
-        opacity: 0.7;
-        transition: .3s ease-in-out;
-    }
-}
-
-.fa-hand-point-down {
-    font-size: 8em;
-    opacity: 0.7;
 }
