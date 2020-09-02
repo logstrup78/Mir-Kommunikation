@@ -38,7 +38,7 @@ p {
     font-size: 1.5em;
     font-family: 'Libre Caslon Display',
         serif;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 a {
@@ -64,7 +64,7 @@ a {
 }
 .name {
     text-align: center;
-    padding-top: 18%;
+    padding-top: 12%;
     line-height: 5em;
 }
 
@@ -148,16 +148,23 @@ a {
 
 /*kontakt*/
 
-#kontakt {}
+#kontakt {
+    background-color: #bfd6ce;
+    padding-bottom: 100px;
+}
+.kontakth2{
+    margin-bottom: 5%;
+}
 
 p .forsk {
     text-align: center;
 }
 
 .contact_button {
-    margin-top: 50px;
+    margin-top: 35px;
     border: none;
     box-shadow: 1px 1px 1px rgb(133, 132, 132);
+    background-color: #84AFC5;
 }
 
 .læs_mere {
