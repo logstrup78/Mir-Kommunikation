@@ -1,19 +1,19 @@
 h1 {
     font-family: 'Lato', sans-serif;
-    color: #324B50;
+    color: #384955;
     font-size: 6vw;
 }
 
 .btn {
     border-radius: 5%;
-    background-color: #97ADB2;
+    background-color: #88B0CD;
 }
 
 h2 {
     font-family: 'Libre Caslon Display',
         serif;
     font-size: 3.7em;
-    color: #636269;
+    color: #384955;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10%;
@@ -51,16 +51,15 @@ a {
 }
 
 .navbar {
-    background-color: #97ADB2;
+    background-color: #88B0CD;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
-    color: #272343;
     font-weight: 700;
 }
 .navbar-toggler-icon{
-    background-color: rgb(175, 199, 190);
+    background-color: 
 }
 .name {
     text-align: center;
@@ -149,7 +148,7 @@ a {
 /*kontakt*/
 
 #kontakt {
-    background-color: #bfd6ce;
+    background-color: #97D3E1;
     padding-bottom: 100px;
 }
 .kontakth2{
@@ -164,7 +163,6 @@ p .forsk {
     margin-top: 35px;
     border: none;
     box-shadow: 1px 1px 1px rgb(133, 132, 132);
-    background-color: #84AFC5;
 }
 
 .læs_mere {
@@ -177,4 +175,9 @@ p .forsk {
 }
 #se{
     color: #822900;
+}
+.om_img{
+    display: flex;
+    justify-content: center;
+    
 }
