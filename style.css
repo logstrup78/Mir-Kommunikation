@@ -2,6 +2,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     color: #384955;
     font-size: 6vw;
+    margin-bottom: 50px;;
 }
 
 .btn {
@@ -17,6 +18,9 @@ h2 {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10%;
+}
+.p_front{
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -38,7 +42,7 @@ p {
     font-size: 1.5em;
     font-family: 'Libre Caslon Display',
         serif;
-    line-height: 1.6em;
+    /*line-height: 1.6em;*/
 }
 
 a {
@@ -57,9 +61,6 @@ a {
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-}
-.navbar-toggler-icon{
-    background-color: 
 }
 .name {
     text-align: center;
@@ -144,6 +145,11 @@ a {
     background-color: #f8f8f8;
 }
 
+.ide_icon{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*kontakt*/
 
@@ -180,4 +186,19 @@ p .forsk {
     display: flex;
     justify-content: center;
     
+}
+.mail_link{
+    font-size: 1.5em;
+}
+.kontakt_img{
+    display: flex;
+    justify-content: center;
+
+}
+.fas{
+    margin-right: 1em;
+    font-size: 2em;
+}
+ul{
+    line-height: 4em;
 }
