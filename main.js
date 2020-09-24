@@ -10,3 +10,8 @@ $(function(){
 $("h1").hide().fadeIn(4000);
 })
 
+$(".fa-lightbulb").hover(function(){
+    $(this).css("color", "#FFD700");},
+    function(){
+        $(this).css("color", "#383838")
+    })

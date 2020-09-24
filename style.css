@@ -2,7 +2,8 @@ h1 {
     font-family: 'Lato', sans-serif;
     color: #384955;
     font-size: 6vw;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+    ;
 }
 
 .btn {
@@ -19,7 +20,8 @@ h2 {
     margin-top: 5%;
     margin-bottom: 10%;
 }
-.p_front{
+
+.p_front {
     margin-bottom: 50px;
 }
 
@@ -51,7 +53,7 @@ a {
 
 #home {
     background-color: #ffffff;
-    
+
 }
 
 .navbar {
@@ -62,6 +64,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
 .name {
     text-align: center;
     padding-top: 12%;
@@ -124,8 +127,18 @@ a {
 .forsk h3 {
     padding-top: 30px;
 }
-.btn-block{
+
+.btn-block {
     padding: 20px;
+}
+
+.present {
+    display: flex;
+    justify-content: center;
+}
+.fa-gift{
+    font-size: 10em;
+    color: #383838;
 }
 
 
@@ -137,15 +150,25 @@ a {
 
 }
 
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-newspaper {
+    font-size: 10em;
+    color: #383838;
+}
+
 
 /* Vil I have en god ide*/
 
-#god_ide{
+#god_ide {
 
     background-color: #f8f8f8;
 }
 
-.ide_icon{
+.ide_icon {
     display: flex;
     justify-content: center;
 }
@@ -157,7 +180,8 @@ a {
     background-color: #97D3E1;
     padding-bottom: 100px;
 }
-.kontakth2{
+
+.kontakth2 {
     margin-bottom: 5%;
 }
 
@@ -179,26 +203,32 @@ p .forsk {
     margin-top: auto;
     margin-bottom: auto;
 }
-#se{
+
+#se {
     color: #822900;
 }
-.om_img{
-    display: flex;
-    justify-content: center;
-    
-}
-.mail_link{
-    font-size: 1.5em;
-}
-.kontakt_img{
+
+.om_img {
     display: flex;
     justify-content: center;
 
 }
-.fas{
+
+.mail_link {
+    font-size: 1.5em;
+}
+
+.kontakt_img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fas {
     margin-right: 1em;
     font-size: 2em;
 }
-ul{
+
+ul {
     line-height: 4em;
 }
