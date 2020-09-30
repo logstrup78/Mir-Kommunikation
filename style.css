@@ -1,14 +1,11 @@
+/* Tags */
+
 h1 {
     font-family: 'Lato', sans-serif;
     color: #384955;
     font-size: 6vw;
     margin-bottom: 50px;
     ;
-}
-
-.btn {
-    border-radius: 5%;
-    background-color: #88B0CD;
 }
 
 h2 {
@@ -21,23 +18,19 @@ h2 {
     margin-bottom: 10%;
 }
 
-.p_front {
-    margin-bottom: 50px;
-}
-
-@media only screen and (max-width: 600px) {
-    h2 {
-        font-size: 2em;
-    }
-}
-
-
 h3 {
     font-family: 'Libre Caslon Display',
         serif;
     font-size: 2em;
     color: #822900;
     text-align: center;
+}
+
+ul {
+    line-height: 4em;
+}
+li{
+    list-style-type: none;
 }
 
 p {
@@ -51,18 +44,54 @@ a {
     color: #324B50;
 }
 
-#home {
-    background-color: #ffffff;
+/* ID's */
 
+#forside {
+    background: url("images/25101.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 150px;
+    background-color: #ffffff;
 }
 
+#det_tilbyder_jeg {
+    background-color: #f8f8f8;
+}
+
+#journalistiske_artikler {
+    background-color: #fff;
+    display: flex;
+}
+#god_ide {
+    background-color: #f8f8f8;
+}
+#kontakt {
+    background-color: #97D3E1;
+    padding-bottom: 100px;
+}
+#se {
+    color: #822900;
+}
+#formidling{
+    background-color: f8f8f8;
+}
+
+
+/* Classes */
+
 .navbar {
-    background-color: #88B0CD;
+    background-color: #86aed6;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+.p_front {
+    margin-bottom: 50px;
 }
 
 .name {
@@ -81,31 +110,8 @@ a {
     font-weight: bolder;
 }
 
-/*Forside*/
-
-#home {
-    background: url("images/25101.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 20%;
-
-
-}
-
 .kolon {
     margin-top: 10px;
-}
-
-
-
-/* Det tilbyder jeg */
-
-#det_tilbyder_jeg {
-
-    background-color: #f8f8f8;
-
 }
 
 .forsk {
@@ -136,19 +142,16 @@ a {
     display: flex;
     justify-content: center;
 }
-.fa-gift{
+
+.fa-gift {
     font-size: 10em;
     color: #383838;
 }
-
-
-/*Journalistiske artikler*/
-
-#journalistiske_artikler {
-    background-color: #fff;
-    display: flex;
-
+.btn {
+    border-radius: 5%;
+    background-color: #86aed6;
 }
+
 
 .news {
     display: flex;
@@ -160,25 +163,9 @@ a {
     color: #383838;
 }
 
-
-/* Vil I have en god ide*/
-
-#god_ide {
-
-    background-color: #f8f8f8;
-}
-
 .ide_icon {
     display: flex;
     justify-content: center;
-}
-
-
-/*kontakt*/
-
-#kontakt {
-    background-color: #97D3E1;
-    padding-bottom: 100px;
 }
 
 .kontakth2 {
@@ -204,10 +191,6 @@ p .forsk {
     margin-bottom: auto;
 }
 
-#se {
-    color: #822900;
-}
-
 .om_img {
     display: flex;
     justify-content: center;
@@ -229,6 +212,10 @@ p .forsk {
     font-size: 2em;
 }
 
-ul {
-    line-height: 4em;
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 2em;
+    }
 }

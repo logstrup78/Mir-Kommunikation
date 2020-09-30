@@ -15,3 +15,9 @@ $(".fa-lightbulb").hover(function(){
     function(){
         $(this).css("color", "#383838")
     })
+
+    $("#collapse_target").on('show.bs.collapse', function() {
+        $('a.nav-link').click(function() {
+            $("#collapse_target").collapse('hide');
+        });
+    });
