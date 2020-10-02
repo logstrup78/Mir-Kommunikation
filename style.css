@@ -214,6 +214,11 @@ p .forsk {
     margin-right: 1em;
     font-size: 2em;
 }
+.li_om{
+    list-style: outside;
+    font-family: 'Libre Caslon Display',serif;
+    font-size: 1.5em;
+}
 
 /* Media queries */
 
