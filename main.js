@@ -1,10 +1,21 @@
+//*folde ud *//
 $(document).ready(function(){
-    $(".se_mere").hide();
+    $(".temaserier").hide();
     
 })
-$("#se").click(function(){
-    $(".se_mere").show();
+$(".klik").click(function(){
+    $(".temaserier").toggle();
 })
+
+$(document).ready(function(){
+    $(".portrætinterviews").hide();
+    
+})
+$(".klik1").click(function(){
+    $(".portrætinterviews").toggle();
+})
+
+
 
 $(function(){
 $("h1").hide().fadeIn(4000);
