@@ -15,6 +15,29 @@ $(".klik1").click(function(){
     $(".portrætinterviews").toggle();
 })
 
+$(document).ready(function(){
+    $(".hjemmesider").hide();
+    
+})
+$(".klik2").click(function(){
+    $(".hjemmesider").toggle();
+})
+
+$(document).ready(function(){
+    $(".markedsføring").hide();
+    
+})
+$(".klik3").click(function(){
+    $(".markedsføring").toggle();
+})
+
+$(document).ready(function(){
+    $(".korrektur").hide();
+    
+})
+$(".klik4").click(function(){
+    $(".korrektur").toggle();
+})
 
 
 $(function(){

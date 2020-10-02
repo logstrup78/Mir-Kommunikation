@@ -230,3 +230,23 @@ p .forsk {
         font-size: 2em;
     }
 }
+.klik:hover{
+    color:red;
+    text-decoration: underline;
+}
+.klik1:hover{
+    color:red;
+    text-decoration: underline;
+}
+.klik2:hover{
+    color:red;
+    text-decoration: underline;
+}
+.klik3:hover{
+    color:red;
+    text-decoration: underline;
+}
+.klik4:hover{
+    color:red;
+    text-decoration: underline;
+}
