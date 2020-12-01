@@ -2,8 +2,8 @@
 
 h1 {
     font-family: 'Lato', sans-serif;
-    color: #181818;
-    font-size: 6vw;
+    color: #616060;
+    font-size: 5vw;
     margin-bottom: 50px;
     font-weight: bold;
     display: inline-block;
@@ -103,9 +103,9 @@ a {
 
 .name {
     text-align: center;
-    padding-top: 12%;
-    line-height: 5em;
+    padding-top: 8%;
 }
+
 
 .name h1 {
     font-family: 'Libre Caslon Display',
@@ -223,10 +223,23 @@ p .forsk {
     font-family: 'Libre Caslon Display',serif;
     font-size: 1.5em;
 }
-
+.primary_img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+.secondary_img{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50%;
+}
 /* Media queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     h2 {
         font-size: 2em;
     
