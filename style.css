@@ -9,7 +9,7 @@ h1 {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    
+
 }
 
 
@@ -34,6 +34,7 @@ h3 {
 ul {
     line-height: 4em;
 }
+
 li {
     list-style-type: none;
 }
@@ -64,29 +65,40 @@ a {
     background-color: #fff;
     display: flex;
 }
+
 #god_ide {
     background-color: #f8f8f8;
+
 }
+
+#ny_viden {
+    background-color: #fff;
+}
+
+#kommunikation {
+    background-color: #f8f8f8;
+}
+
+#om_mig {
+    background-color: #fff;
+}
+
+#mere {
+    background-color: #f8f8f8;
+}
+
 #kontakt {
     background-color: #D9E8F5;
     padding-bottom: 100px;
 }
-#om_mig{
-    background-color: #f8f8f8;
-}
+
 #se {
     color: #822900;
-}
-#formidling{
-    background-color: #f8f8f8;
-}
-#ny_viden{
-    background-color: #fff;
 }
 
 
 /* Classes */
-.down_arrow{
+.down_arrow {
     margin-right: 10px;
     float: left;
     position: relative;
@@ -96,13 +108,13 @@ a {
 .navbar {
     background-color: #D9E8F5;
     box-shadow: 2px 2px #aaaaaa;
-    
+
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-       
+
 }
 
 .p_front {
@@ -162,6 +174,7 @@ a {
     font-size: 10em;
     color: #383838;
 }
+
 .btn {
     border-radius: 5%;
     background-color: #CCEAFF;
@@ -209,7 +222,7 @@ p .forsk {
 .om_img {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .mail_link {
@@ -226,18 +239,21 @@ p .forsk {
     margin-right: 1em;
     font-size: 2em;
 }
-.li_om{
+
+.li_om {
     list-style: outside;
-    font-family: 'Libre Caslon Display',serif;
+    font-family: 'Libre Caslon Display', serif;
     font-size: 1.5em;
 }
-.primary_img{
+
+.primary_img {
     display: flex;
     justify-content: center;
     width: 300px;
     height: 300px;
 }
-.secondary_img{
+
+.secondary_img {
     display: flex;
     justify-content: center;
     width: 350px;
@@ -245,31 +261,37 @@ p .forsk {
     margin: auto;
     border-radius: 50%;
 }
+
 /* Media queries */
 
 @media only screen and (max-width: 640px) {
     h2 {
         font-size: 2em;
-    
+
     }
 }
-.klik:hover{
-    color:#D66D3C;
+
+.klik:hover {
+    color: #D66D3C;
     text-decoration: underline;
 }
-.klik1:hover{
-    color:#D66D3C;
+
+.klik1:hover {
+    color: #D66D3C;
     text-decoration: underline;
 }
-.klik2:hover{
-    color:#D66D3C;
+
+.klik2:hover {
+    color: #D66D3C;
     text-decoration: underline;
 }
-.klik3:hover{
-    color:#D66D3C;
+
+.klik3:hover {
+    color: #D66D3C;
     text-decoration: underline;
 }
-.klik4:hover{
-    color:#D66D3C;
+
+.klik4:hover {
+    color: #D66D3C;
     text-decoration: underline;
 }
