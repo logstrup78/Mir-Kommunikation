@@ -86,7 +86,15 @@ a {
 
 
 /* Classes */
-
+.down_arrow{
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    padding-top: 10px;
+}
+.klik{
+    
+}
 .navbar {
     background-color: #A5CEEB;
     box-shadow: 2px 2px #aaaaaa;
@@ -246,22 +254,22 @@ p .forsk {
     }
 }
 .klik:hover{
-    color:red;
+    color:#D66D3C;
     text-decoration: underline;
 }
 .klik1:hover{
-    color:red;
+    color:#D66D3C;
     text-decoration: underline;
 }
 .klik2:hover{
-    color:red;
+    color:#D66D3C;
     text-decoration: underline;
 }
 .klik3:hover{
-    color:red;
+    color:#D66D3C;
     text-decoration: underline;
 }
 .klik4:hover{
-    color:red;
+    color:#D66D3C;
     text-decoration: underline;
 }
