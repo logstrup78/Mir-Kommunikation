@@ -36,6 +36,7 @@ ul {
 }
 li {
     list-style-type: none;
+    color: #91BED4;
 }
 
 p {
@@ -92,17 +93,17 @@ a {
     position: relative;
     padding-top: 10px;
 }
-.klik{
-    
-}
+
 .navbar {
-    background-color: #A5CEEB;
+    background-color: #71AAF0;
     box-shadow: 2px 2px #aaaaaa;
+    
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+       
 }
 
 .p_front {
