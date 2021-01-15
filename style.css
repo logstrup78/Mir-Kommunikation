@@ -96,8 +96,16 @@ a {
     color: #822900;
 }
 
+@media only screen and (max-width: 1000px){
+    #billedet{
+        display: none;
+    }
+}
+
 
 /* Classes */
+
+
 .down_arrow {
     margin-right: 10px;
     float: left;
@@ -137,9 +145,9 @@ a {
     font-weight: bolder;
 }
 
-.kolon {
+/*.kolon {
     margin-top: 10px;
-}
+}*/
 
 .forsk {
     margin: 15% 5%;
@@ -256,8 +264,8 @@ p .forsk {
 .secondary_img {
     display: flex;
     justify-content: center;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin: auto;
     border-radius: 50%;
 }
