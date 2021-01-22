@@ -55,6 +55,11 @@ a {
     background-color: #ffffff;
     height: 100vh;
 }
+@media only screen and (max-width: 1000px){
+    #forside{
+        height: 50vh;
+    }
+}
 
 #det_tilbyder_jeg {
     background-color: #f8f8f8;
