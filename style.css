@@ -65,7 +65,10 @@ a {
 #det_tilbyder_jeg {
     background-color: #f8f8f8;
 }
-
+#footer{
+    background-color: #425569;
+    text-align: center;
+}
 #journalistiske_artikler {
     background-color: #fff;
     display: flex;
