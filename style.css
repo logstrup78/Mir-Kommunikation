@@ -1,14 +1,13 @@
 /* Tags */
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Caslon Display',
+        serif;
+    letter-spacing: 12px;
     color: #425569;
-    font-size: 4vw;
-    margin-bottom: 50px;
-    font-weight: bold;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    font-size: 4.5em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 
@@ -23,10 +22,20 @@ h2 {
 }
 
 h3 {
-    font-family: 'Libre Caslon Display',
-        serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ,
+    serif;
     font-size: 2em;
     color: #822900;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Libre Caslon Display',
+        serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: #425569;
     text-align: center;
 }
 
@@ -39,9 +48,9 @@ li {
 }
 
 p {
-    font-size: 1.5em;
-    font-family: 'Libre Caslon Display',
-        serif;
+    font-size: 1.4em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
     /*line-height: 1.6em;*/
 }
 
@@ -55,27 +64,44 @@ a {
     background-color: #ffffff;
     height: 100vh;
 }
-@media only screen and (max-width: 1000px){
-    #forside{
-        height: 60vh;
+
+@media only screen and (max-width: 1000px) {
+    #forside {
+        height: 100vh;
         width: auto;
     }
 }
 
-#det_tilbyder_jeg {
-    background-color: #f8f8f8;
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 1.6em;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
 }
-#footer{
+@media only screen and (max-width: 1000px) {
+    h4 {
+        font-size: 1.4em;
+    }
+}
+
+
+#det_tilbyder_jeg {
+    background-color: #F2F2F2;
+}
+
+#footer {
     background-color: #425569;
     text-align: center;
 }
+
 #journalistiske_artikler {
     background-color: #fff;
-    display: flex;
+
 }
 
 #god_ide {
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
 
 }
 
@@ -84,7 +110,7 @@ a {
 }
 
 #kommunikation {
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
 }
 
 #om_mig {
@@ -92,29 +118,33 @@ a {
 }
 
 #mere {
-    background-color: #f8f8f8;
+    background-color: #F2F2F2;
 }
 
 #kontakt {
     background-color: #D9E8F5;
     padding-bottom: 100px;
 }
-#privat{
-    margin: 0 10%; 
+
+#privat {
+    margin: 0 10%;
 }
+
 #se {
     color: #822900;
 }
 
-@media only screen and (max-width: 1000px){
-    #billedet{
+@media only screen and (max-width: 1000px) {
+    #billedet {
         display: none;
     }
 }
 
 
 /* Classes */
-
+.forside {
+    margin: 7% auto;
+}
 
 .down_arrow {
     margin-right: 10px;
@@ -144,12 +174,6 @@ a {
     padding-top: 3%;
 }
 
-
-.name h1 {
-    font-family: 'Libre Caslon Display',
-        serif;
-}
-
 .name p {
     font-size: larger;
     font-weight: bolder;
@@ -164,6 +188,7 @@ a {
 }
 
 .forsk1 {
+
     margin: 15% 5%;
     padding: 3%;
 
@@ -250,9 +275,10 @@ p .forsk {
 .kontakt_img {
     display: flex;
     justify-content: center;
- 
+
 }
-.kontakt_img img{
+
+.kontakt_img img {
     max-width: 100%;
     height: auto;
 }
@@ -274,16 +300,27 @@ p .forsk {
     width: 300px;
     height: 300px;
 }
-.privat{
+
+.privat {
     margin: 3%;
 }
-.secondary_img {
+
+.Forside_billede {
+    width: 600px;
+    height: 330px;
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+
+.Forside_billede_div {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.forside_knap {
+    display: flex;
+    justify-content: center;
 }
 
 /* Media queries */

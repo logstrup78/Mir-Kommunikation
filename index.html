@@ -23,11 +23,12 @@
     <meta name="description" content="">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
      user-scalable=0'>
+     <meta name="description" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link
+    <!-- <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swapfamily=Libre+Caslon+Display&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/38569efba2.js" crossorigin="anonymous"></script>
@@ -35,59 +36,56 @@
 
 <body>
     <!-- Forside -->
+
+    //NAVIGATION
+    <header>
+        <nav class="navbar navbar-toggleable-md fixed-top navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="collapse_target">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forside">Forside</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#det_tilbyder_jeg">Det tilbyder jeg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journalistiske_artikler">Journalistiske artikler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ny_viden">Formidling af viden</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kommunikation">Tekster</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#om_mig">Om mig</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
     <section id="forside">
         <div class="container-fluid">
-
-            //NAVIGATION
-
-            <nav class="navbar navbar-toggleable-md fixed-top navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="navbar-collapse collapse" id="collapse_target">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#forside">Forside</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#det_tilbyder_jeg">Det tilbyder jeg</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#journalistiske_artikler">Journalistiske artikler</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#ny_viden">Formidling af viden</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#kommunikation">Tekster</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#om_mig">Om mig</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#kontakt">Kontakt</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
-
             <div class="row">
-                <div class="name col-lg-6 col-sm-12" id="forside">
-                    <div class="backgr_text forsk">
-                        <h1>MIR KOMMUNIKATION</h1>
-                        <p>Professionel formidling i øjenhøjde</p>
-                        <h4>Børneliv - Sundhedsfremme - Kultur</h4>
+
+            <div class="forside col-12">
+                
+                    <h1>MIR KOMMUNIKATION</h1>
+                    <h4>Professionel formidling i øjenhøjde</h4>
+
+                    <div class="Forside_billede_div">
+                        <img src="/images/Kommunikation computer.jpg" alt="Billede af computer" class="Forside_billede">
+                    </div>
+                    <h4>Journalist - Vidensformidler - Tekstforfatter</h4>
+                    <!-- <div class="forside_knap">
                         <a class="btn btn-lg btn-light contact_button" href="#det_tilbyder_jeg">Læs mere</a>
-
-                    </div>
-                </div>
-                <div class="name col-lg-6 col-sm-12" id="forside">
-                    <div class="forsk1">
-                        <div id="billedet"><img class="secondary_img" src="/images/barn.jpg" alt="billede af barn">
-                        </div>
-
-                    </div>
-
+                    </div>                -->
                 </div>
             </div>
         </div>
@@ -196,7 +194,7 @@
     <section id="god_ide">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12">
                     <div class="forsk">
                         <h2>Vil I have en god ide?</h2>
                     </div>
