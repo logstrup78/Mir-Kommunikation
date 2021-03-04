@@ -54,6 +54,7 @@ p {
 
 a {
     color: #324B50;
+    cursor: pointer;
 }
 
 /* ID's */
@@ -91,7 +92,11 @@ a {
 
 #footer {
     background-color: #425569;
-    text-align: center;
+    
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
 }
 
 #journalistiske_artikler {
@@ -317,10 +322,6 @@ p .forsk {
     margin-bottom: 5%;
 }
 
-.forside_knap {
-    display: flex;
-    justify-content: center;
-}
 
 /* Media queries */
 
@@ -334,24 +335,29 @@ p .forsk {
 .klik:hover {
     color: #D66D3C;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .klik1:hover {
     color: #D66D3C;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .klik2:hover {
     color: #D66D3C;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .klik3:hover {
     color: #D66D3C;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .klik4:hover {
     color: #D66D3C;
     text-decoration: underline;
+    cursor: pointer;
 }
