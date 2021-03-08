@@ -310,9 +310,15 @@ p .forsk {
 }
 
 .Forside_billede {
+<<<<<<< Updated upstream
     width: 600px;
     height: 330px;
     /*box-shadow: 3px 3px 3px #aaaaaa;*/
+=======
+    max-width: 500px;
+    height: auto;
+    box-shadow: 3px 3px 3px #aaaaaa;
+>>>>>>> Stashed changes
 }
 
 .Forside_billede_div {
