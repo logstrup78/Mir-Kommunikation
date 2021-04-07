@@ -40,9 +40,6 @@ $(".klik4").click(function(){
 })
 
 
-$(function(){
-$("h1").hide().fadeIn(4000);
-})
 
     $("#collapse_target").on('show.bs.collapse', function() {
         $('a.nav-link').click(function() {
